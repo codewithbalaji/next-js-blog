@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./loginForm.module.css";
 import { useActionState } from "react";
 import { login } from "@/lib/action";
@@ -11,9 +11,6 @@ const LoginForm = () => {
 
   const router = useRouter();
 
-//   useEffect(() => {
-//     state?.success && router.push("/login");
-//   }, [state?.success, router]);
   return (
     <form className={styles.form} action={formAction}>
       <input type="text" placeholder="username" name="username" />
