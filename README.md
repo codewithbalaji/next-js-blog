@@ -1,7 +1,3 @@
-Here’s a README template for your Next.js blog project on GitHub, which includes MongoDB and Auth.js:
-
----
-
 # Next.js Blog with MongoDB and Auth.js
 
 This is a **blog application** built with **Next.js**, **MongoDB**, and **Auth.js** for authentication. The application provides users with a platform to create, edit, and view blog posts, with support for secure authentication and data persistence.
